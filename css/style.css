@@ -427,3 +427,45 @@ font-family: 'Lobster', cursive;
     opacity: 1;
   }
 }
+/* RESPONSIVE CHO ĐIỆN THOẠI */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  #card {
+    aspect-ratio: 4 / 3;
+  }
+
+  .button {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+
+  h1, h2, p {
+    font-size: 1rem;
+  }
+
+  .polaroid {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #card {
+    aspect-ratio: 1 / 1;
+  }
+
+  .button {
+    font-size: 0.9rem;
+    padding: 8px 14px;
+  }
+
+  .polaroid {
+    max-width: 160px;
+  }
+
+  h1, h2, p {
+    font-size: 0.95rem;
+  }
+}
